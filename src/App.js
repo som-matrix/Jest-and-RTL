@@ -6,9 +6,9 @@ function App() {
     setCount(count + 1);
   }
   const decrement = ()=>{
-    // if(count === 0){
-    //   return
-    // }
+    if(count === 0){
+      return
+    }
     setCount(count - 1);
   }
   return (
